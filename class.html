@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pubg web site</title>
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<nav class="navbar">
+		<h1 class="logo">GAME</h1>
+		<ul class="nav-links">
+			<li><a href="#header-content">Home</a></li>
+			<li><a href="#event">Up Coming Event</a></li>
+			<li><a href="#about">About Us</a></li>
+			<li><a href="#contact">Contact Us</a></li>
+			<li class="ctn"><a href="#"></a>Registration</li>
+		</ul>
+		<img src="menu.png" alt="" class="menu-btn">
+	</nav>
+	<header>
+		<div class="header-content" id="header-content">
+			<h2> PUBG</h2>
+			<div class="line"></div>
+			<h1>About PMPC</h1>
+			<div class="line2"></div>
+			<p>PMPC is a community based organization for PUBG MOBILE who work together with its community partners in left deserving teams towards betterment.</p>
+			<br><br>
+			<a href="#" class="ctn">Learn more</a>
+		</div>
+	</header>
+
+
+	<section class="event" id="event">
+		<div class="title">
+			<h1>Upcoming Event</h1>
+			<div class="line"></div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<img src="img2.jpg" alt="">
+				<h4>Event Name</h4>
+				<p1>বাংলাদেশে এই প্রথম বারের মতো Deserving Teams দের নিয়ে,সাউথ প্যাসিফিক অঞ্চলের অন্যতম সেরা লবি বাংলাদেশ থেকে পরিচালিত হতে যাচ্ছে!</p1>
+			    <a href="#" class="ctn">Learn more</a>
+			</div>
+		
+			<div class="col">
+				<img src="img3.jpg" alt="">
+				<h4>Event Name</h4>
+				<p1>বাংলাদেশে এই প্রথম বারের মতো Deserving Teams দের নিয়ে,সাউথ প্যাসিফিক অঞ্চলের অন্যতম সেরা লবি বাংলাদেশ থেকে পরিচালিত হতে যাচ্ছে!</p1>
+			    <a href="#" class="ctn">Learn more</a>
+			</div>
+		</div>
+	</section>
+	<section class="about" id="about">
+		<div class="about-content">
+		<h1>About Us</h1>
+		<div class="line2"></div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin diam sem, tincidunt ut felis eu, ultrices suscipit dui. In pretium felis orci, eu porttitor nisl mollis id. Etiam interdum, justo blandit convallis fringill.</p>
+		<br><br>
+		<a href="#" class="ctn">Learn more</a>
+	</div>
+	</section>
+	<section class="contact" id="contact">
+		<div class="title"> >
+			<h2 class="titleText"><span>C</span>ontact Us</h2>
+		</div>
+		<div class="contactForm">
+			<h3>Send Message</h3>
+			<div class="inputBox">
+			<input type="text" placeholder="Name">	
+			</div>
+
+			<div class="inputBox">
+			<input type="text" placeholder="Email">	
+			</div>
+
+			<div class="inputBox">
+			<input type="submit" value="Send">	
+			</div>
+		</div>
+	</section>
+	<section class="footer">
+		<p>salma khan || bangladesh || Email:bristy00543@gmail.com</p>
+		<p>Copyright @ 2020</p>
+	</section>
+
+	<script>
+		const menuBtn = document.querySelector('.menu-btn')
+		const navlinks = document.querySelector('.nav-links')
+
+		menuBtn.addEventListener('click',()=>{
+			navlinks.classList.toggle('mobile-menu')
+		})
+	</script>
+
+</body>
+</html>
